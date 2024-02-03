@@ -1,0 +1,10 @@
+{
+  "editor.minimap.enabled": false,
+  "workbench.statusBar.visible": true,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.tips.enabled": false,
+  "git.countBadge": "off",
+  "git.decorations.enabled": false,
+  "window.zoomLevel": 0
+}
