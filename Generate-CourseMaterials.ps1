@@ -12,14 +12,8 @@ $CommonPaths = @(
 )
 
 $DemoPaths = @(
-    ".\demo\src",
-    ".\demo\public",
-    ".\demo\README.md",
-    ".\demo\package.json",
-    ".\demo\package-lock.json",
-    ".\demo\.gitignore",
-    ".\demo\.vscode",
-    ".\demo\.eslintrc.json"
+    ".\demo-simorgh\demo-simorgh.zip",
+    ".\demo-simorgh\README.md"
 )
 
 function Compress($destinationPath, $pathsToCompress) {
@@ -27,8 +21,6 @@ function Compress($destinationPath, $pathsToCompress) {
 }
 
 Compress ".\.materials\demo.zip" $DemoPaths
-Compress ".\.materials\Module-2.zip" ($CommonPaths + ".\Module 2")
-Compress ".\.materials\Module-4.zip" ($CommonPaths + ".\Module 4")
+Compress ".\.materials\Module-3.zip" ($CommonPaths + ".\Module 3")
 Compress ".\.materials\Module-5.zip" ($CommonPaths + ".\Module 5")
 Compress ".\.materials\Module-6.zip" ($CommonPaths + ".\Module 6")
-Compress ".\.materials\Module-7.zip" ($CommonPaths + ".\Module 7")
